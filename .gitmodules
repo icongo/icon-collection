@@ -158,3 +158,7 @@
 	path = icons/lu/data
 	url = https://github.com/lucide-icons/lucide.git
 	branch = main
+[submodule "icons/ad/data"]
+	path = icons/ad/data
+	url = https://github.com/ant-design/ant-design-icons.git
+	branch = master
