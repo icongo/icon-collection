@@ -1,0 +1,21 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-22.04
+    env:
+      NODE_OPTIONS: --max_old_space_size=8192
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - run: npm install
