@@ -29,6 +29,7 @@ jobs:
       - run: npm run ccp
       - run: npm run cg
       - run: npm run ci
+      - run: npm run ct
       - run: npm run di
       - run: npm run ei
       - run: npm run ev
