@@ -9,6 +9,7 @@
     "ccp": "node icons/ccp/cpy.mjs && svgo -f icons/ccp/.cache_svg -o svg/ccp",
     "cg": "svgo -f icons/cg/data/icons/svg -o svg/cg",
     "ci": "node icons/ci/cpy.mjs && svgo -f icons/ci/.cache_svg -o svg/ci",
+    "ct": "node icons/ct/cpy.mjs && svgo -f icons/ct/.cache_svg -o svg/ct",
     "di": "svgo -f icons/di/data/!SVG -o svg/di",
     "ei": "svgo -f icons/ei/data/assets/icons -o svg/ei",
     "ev": "node icons/ev/cpy.mjs && svgo -f icons/ev/.cache_svg -o svg/ev --config icons/ev/svgo.config.js",

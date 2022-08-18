@@ -174,3 +174,7 @@
 	path = icons/vl/data
 	url = https://github.com/VectorLogoZone/vectorlogozone.git
 	branch = main
+[submodule "icons/ct/data"]
+	path = icons/ct/data
+	url = https://github.com/spothq/cryptocurrency-icons.git
+	branch = master
