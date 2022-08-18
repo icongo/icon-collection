@@ -19,3 +19,53 @@ jobs:
           node-version: 16
 
       - run: npm install
+      - run: npm run bi
+      - run: npm run bs
+      - run: npm run bts
+      - run: npm run ccp
+      - run: npm run cg
+      - run: npm run ci
+      - run: npm run di
+      - run: npm run ei
+      - run: npm run ev
+      - run: npm run fa
+      - run: npm run fc
+      - run: npm run fd
+      - run: npm run fg
+      - run: npm run fi
+      - run: npm run gi
+      - run: npm run go
+      - run: npm run gr
+      - run: npm run hi
+      - run: npm run ic
+      - run: npm run ii
+      - run: npm run ik
+      - run: npm run io
+      - run: npm run ir
+      - run: npm run lg
+      - run: npm run lu
+      - run: npm run md
+      - run: npm run mi
+      - run: npm run mp
+      - run: npm run pk
+      - run: npm run ri
+      - run: npm run scwi
+      - run: npm run si
+      - run: npm run sti
+      - run: npm run tb
+      - run: npm run ti
+      - run: npm run tn
+      - run: npm run uiw
+      - run: npm run vsc
+      - run: npm run vv
+      - run: npm run wi
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: ${{ github.event.head_commit.message }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          publish_branch: svgs
+          publish_dir: ./svg

@@ -1,6 +1,8 @@
 dist
 build
 node_modules
+svg
+.cache_svg
 
 npm-debug.log*
 lerna-debug.log
