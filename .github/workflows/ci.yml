@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      
+      - run: git config core.ignorecase false
 
       - run: npm install
       - run: npm run ad
