@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "ad": "node icons/ad/cpy.mjs && svgo -f icons/ad/.cache_svg -o svg/ad",
+    "ae": "svgo -f icons/ae/data/SVG -o svg/ae",
     "bi": "cpy 'icons/bi/data/svg/**/*.svg' node_modules/.cache/svg/bi --flat && svgo -f node_modules/.cache/svg/bi -o svg/bi",
     "bs": "svgo -f icons/bs/data/icons -o svg/bs",
     "bts": "svgo -f icons/bts/data/dist/icons -o svg/bts",

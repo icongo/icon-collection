@@ -22,6 +22,7 @@ jobs:
 
       - run: npm install
       - run: npm run ad
+      - run: npm run ae
       - run: npm run bi
       - run: npm run bs
       - run: npm run bts

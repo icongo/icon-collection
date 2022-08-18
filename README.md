@@ -7,6 +7,7 @@ Collection of popular open source svg icons
 
 | Name | NPM Version | Website |
 | ----- | ----- | ----- |
+| `@icongo/ae` | [![npm version](https://img.shields.io/npm/v/@icongo/ae.svg)](https://www.npmjs.com/package/@icongo/ae) | [`#preview`](https://icongo.github.io/#/icons/ae/) |
 | `@icongo/ad` | [![npm version](https://img.shields.io/npm/v/@icongo/ad.svg)](https://www.npmjs.com/package/@icongo/ad) | [`#preview`](https://icongo.github.io/#/icons/ad/) |
 | `@icongo/bi` | [![npm version](https://img.shields.io/npm/v/@icongo/bi.svg)](https://www.npmjs.com/package/@icongo/bi) | [`#preview`](https://icongo.github.io/#/icons/bi/) |
 | `@icongo/bs` | [![npm version](https://img.shields.io/npm/v/@icongo/bs.svg)](https://www.npmjs.com/package/@icongo/bs) | [`#preview`](https://icongo.github.io/#/icons/bs/) |

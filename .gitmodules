@@ -166,3 +166,7 @@
 	path = icons/ji/data
 	url = https://github.com/michaelampr/jam.git
 	branch = master
+[submodule "icons/ae/data"]
+	path = icons/ae/data
+	url = https://github.com/aegis-icons/aegis-icons.git
+	branch = master
