@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
   <defs>
-    <linearGradient x1="36.543" y1="22.269" x2="12.471" y2="51.312" id="A" gradientUnits="userSpaceOnUse">
+    <linearGradient x1="36.543" y1="22.269" x2="12.471" y2="51.312" id="a" gradientUnits="userSpaceOnUse">
       <stop stop-color="#f08d4a" offset="0%"/>
       <stop stop-color="#e75e31" offset="100%"/>
     </linearGradient>
-    <path id="B" d="M7.213 55.66v3.346h1.814v-3.45"/>
+    <path id="b" d="M7.213 55.66v3.346h1.814v-3.45"/>
   </defs>
   <g transform="matrix(1.174863 0 0 1.174863 3.913659 -7.580714)" fill-rule="evenodd">
-    <circle cx="21.867" cy="34.867" r="18.717" fill="url(#A)"/>
+    <circle cx="21.867" cy="34.867" r="18.717" fill="url(#a)"/>
     <g transform="rotate(45 12.116 42.995)">
       <path d="M24.218 22.2c-.127.016-5.054 10.063-20.326 11.267 0 0 5.738-12 20.326-11.267" fill="#a22b30"/>
       <path d="M24.218 22.18c-.127.016-5.054 10.1-20.326 11.3-.001-.048 8.13-9.524 20.326-11.3" fill="#8e3127"/>
@@ -22,12 +22,12 @@
       <path d="M17.3 29.562l-.067-17.074L16 11.3l.482 18.83.815-.568" fill="#00a2b6"/>
       <path d="M16.07 11.887l.3 9.02-3.62-3.92-.628-11.963zm1.007-.182l.15 9.486 3.36-4.034.115-12.242z" fill="#fac922"/>
       <g fill="#ab462c">
-        <use xlink:href="#B"/>
-        <use xlink:href="#B" x="2.487"/>
-        <use xlink:href="#B" x="4.975"/>
+        <use xlink:href="#b"/>
+        <use xlink:href="#b" x="2.487"/>
+        <use xlink:href="#b" x="4.975"/>
         <path d="M14.676 55.66v3.346H16.5v-3.45"/>
-        <use xlink:href="#B" x="9.951"/>
-        <use xlink:href="#B" x="12.437"/>
+        <use xlink:href="#b" x="9.951"/>
+        <use xlink:href="#b" x="12.437"/>
       </g>
       <path d="M3.892 33.23l3.24 22.427 14.263-.224L24.22 22.18s-5.78 9.705-20.326 11.05" fill="#b76141"/>
       <path d="M24.218 22.598L5.622 44.628l1.552 11.448 14.25-.226 2.794-33.25" fill="#ab462c"/>

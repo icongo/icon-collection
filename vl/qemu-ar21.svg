@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60">
   <defs>
-    <linearGradient id="A" x1="142.819" y1="831.523" x2="142.819" y2="878.907" gradientUnits="userSpaceOnUse">
+    <linearGradient id="b" x1="142.819" y1="831.523" x2="142.819" y2="878.907" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="B" cx="116.52" cy="98.282" fx="116.52" fy="98.282" r="55.859" gradientTransform="matrix(0.97442557,1.5088911,-0.83559154,0.53961599,79.641615,-130.28522)" gradientUnits="userSpaceOnUse">
+    <radialGradient id="a" cx="116.52" cy="98.282" fx="116.52" fy="98.282" r="55.859" gradientTransform="matrix(0.97442557,1.5088911,-0.83559154,0.53961599,79.641615,-130.28522)" gradientUnits="userSpaceOnUse">
       <stop offset="0"/>
       <stop offset="1" stop-opacity=".897"/>
     </radialGradient>
   </defs>
   <g transform="matrix(.253404 0 0 .253404 .102215 1.65925)">
-    <path d="M118.216 55.86c-30.85 0-55.875 24.87-55.875 55.562s25.024 55.562 55.875 55.562c10.095 0 19.546-2.653 27.72-7.312l2.906 7.313h22.53l-8.812-21.78c7.215-9.362 11.5-21.072 11.5-33.78 0-30.692-24.993-55.562-55.844-55.562z" fill="url(#B)"/>
-    <ellipse ry="24.643" rx="35.357" cy="856.291" cx="142.5" transform="matrix(1.046508 0 0 1.292046 -31.641235 -1016.8612)" fill="url(#A)"/>
+    <path d="M118.216 55.86c-30.85 0-55.875 24.87-55.875 55.562s25.024 55.562 55.875 55.562c10.095 0 19.546-2.653 27.72-7.312l2.906 7.313h22.53l-8.812-21.78c7.215-9.362 11.5-21.072 11.5-33.78 0-30.692-24.993-55.562-55.844-55.562z" fill="url(#a)"/>
+    <ellipse ry="24.643" rx="35.357" cy="856.291" cx="142.5" transform="matrix(1.046508 0 0 1.292046 -31.641235 -1016.8612)" fill="url(#b)"/>
     <circle r="6.566" cy="78.789" cx="123.332"/>
     <path d="M111.35 81.924l37.258 5.376-1.044 5.4-37.258-5.376z"/>
     <path d="M144.925 89.017h6.566v2.904h-6.566z"/>

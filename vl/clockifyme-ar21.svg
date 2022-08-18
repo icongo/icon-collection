@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 120 60" height="1em" width="1em">
-  <g clip-path="url(#A)" transform="matrix(.104167 0 0 .104167 9.999998 17.708333)">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 120 60">
+  <g clip-path="url(#a)" transform="matrix(.104167 0 0 .104167 9.999998 17.708333)">
     <path d="M0 0h960v236H0z" fill="#000" fill-opacity="0"/>
     <g fill-rule="evenodd">
       <path d="M104.28 70.273l40.56-40.552 11.6 11.6-40.56 40.552zm-16.434 41.44c-7.937 0-14.368-6.454-14.368-14.423 0-7.96 6.43-14.423 14.368-14.423s14.368 6.462 14.368 14.423c0 7.97-6.43 14.423-14.368 14.423zm68.792 41.886l-11.6 11.607-40.56-40.552 11.6-11.608z" fill="#222"/>
@@ -7,7 +7,7 @@
     </g>
   </g>
   <defs>
-    <clipPath id="A">
+    <clipPath id="a">
       <path d="M0 0h960v236H0z" fill="#fff"/>
     </clipPath>
   </defs>

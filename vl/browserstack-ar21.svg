@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60">
   <defs>
-    <radialGradient id="A" cx="23.012" cy="18.5" r="7.661" fx="23.012" fy="18.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.49488858,0,0,0.49488858,9.5546003,18.93924)">
+    <radialGradient id="a" cx="23.012" cy="18.5" r="7.661" fx="23.012" fy="18.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.49488858,0,0,0.49488858,9.5546003,18.93924)">
       <stop offset="0%" stop-color="#797979"/>
       <stop offset="100%" stop-color="#4c4c4c"/>
     </radialGradient>
@@ -15,7 +15,7 @@
       <circle r="5.988" cy="27.748" cx="19.997" fill="#aedae6"/>
       <circle r="5.048" cy="26.758" cx="20.937" fill="#56b8de"/>
       <circle r="4.405" cy="27.451" cx="21.58" fill="#00b1d5"/>
-      <circle r="3.761" cy="28.045" cx="20.937" fill="url(#A)"/>
+      <circle r="3.761" cy="28.045" cx="20.937" fill="url(#a)"/>
       <circle r="3.761" cy="28.045" cx="20.937" fill="#221f1f"/>
       <ellipse transform="rotate(294.166)" ry=".742" rx="1.188" cy="31.401" cx="-15.159" fill="#fff"/>
     </g>
