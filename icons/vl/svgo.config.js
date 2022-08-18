@@ -6,20 +6,19 @@ module.exports = {
   },
   plugins: [
     'removeXMLProcInst',
+    'inlineStyles',
     'cleanupIDs',
     'cleanupAttrs',
     'removeEmptyAttrs',
     'removeMetadata',
     'removeTitle',
-    'inlineStyles',
+    'removeStyleElement',
+    'removeHiddenElems',
     'removeUselessDefs',
     'removeComments',
     'removeDimensions',
-    {
-      name: 'addAttributesToSVGElement',
-      params: {
-        attributes: ['height="1em"', 'width="1em"']
-      }
-    },
-  ]
+    'removeEditorsNSData',
+    'removeDesc',
+    'mergePaths',
+  ],
 }
