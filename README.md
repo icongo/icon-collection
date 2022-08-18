@@ -1,6 +1,8 @@
 Icon Collection
 ===
 
+[![CI](https://github.com/icongo/icon-collection/actions/workflows/ci.yml/badge.svg)](https://github.com/icongo/icon-collection/actions/workflows/ci.yml)
+
 Collection of popular open source svg icons
 
 
