@@ -170,3 +170,7 @@
 	path = icons/ae/data
 	url = https://github.com/aegis-icons/aegis-icons.git
 	branch = master
+[submodule "icons/vl/data"]
+	path = icons/vl/data
+	url = https://github.com/VectorLogoZone/vectorlogozone.git
+	branch = main

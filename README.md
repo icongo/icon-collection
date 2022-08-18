@@ -7,8 +7,8 @@ Collection of popular open source svg icons
 
 | Name | NPM Version | Website |
 | ----- | ----- | ----- |
-| `@icongo/ae` | [![npm version](https://img.shields.io/npm/v/@icongo/ae.svg)](https://www.npmjs.com/package/@icongo/ae) | [`#preview`](https://icongo.github.io/#/icons/ae/) |
 | `@icongo/ad` | [![npm version](https://img.shields.io/npm/v/@icongo/ad.svg)](https://www.npmjs.com/package/@icongo/ad) | [`#preview`](https://icongo.github.io/#/icons/ad/) |
+| `@icongo/ae` | [![npm version](https://img.shields.io/npm/v/@icongo/ae.svg)](https://www.npmjs.com/package/@icongo/ae) | [`#preview`](https://icongo.github.io/#/icons/ae/) |
 | `@icongo/bi` | [![npm version](https://img.shields.io/npm/v/@icongo/bi.svg)](https://www.npmjs.com/package/@icongo/bi) | [`#preview`](https://icongo.github.io/#/icons/bi/) |
 | `@icongo/bs` | [![npm version](https://img.shields.io/npm/v/@icongo/bs.svg)](https://www.npmjs.com/package/@icongo/bs) | [`#preview`](https://icongo.github.io/#/icons/bs/) |
 | `@icongo/bts` | [![npm version](https://img.shields.io/npm/v/@icongo/bts.svg)](https://www.npmjs.com/package/@icongo/bts) | [`#preview`](https://icongo.github.io/#/icons/bts/) |
@@ -49,6 +49,7 @@ Collection of popular open source svg icons
 | `@icongo/uiw` | [![npm version](https://img.shields.io/npm/v/@icongo/uiw.svg)](https://www.npmjs.com/package/@icongo/uiw) | [`#preview`](https://icongo.github.io/#/icons/uiw/) |
 | `@icongo/vsc` | [![npm version](https://img.shields.io/npm/v/@icongo/vsc.svg)](https://www.npmjs.com/package/@icongo/vsc) | [`#preview`](https://icongo.github.io/#/icons/vsc/) |
 | `@icongo/vv` | [![npm version](https://img.shields.io/npm/v/@icongo/vv.svg)](https://www.npmjs.com/package/@icongo/vv) | [`#preview`](https://icongo.github.io/#/icons/vv/) |
+| `@icongo/vl` | [![npm version](https://img.shields.io/npm/v/@icongo/vl.svg)](https://www.npmjs.com/package/@icongo/vl) | [`#preview`](https://icongo.github.io/#/icons/vl/) |
 | `@icongo/wi` | [![npm version](https://img.shields.io/npm/v/@icongo/wi.svg)](https://www.npmjs.com/package/@icongo/wi) | [`#preview`](https://icongo.github.io/#/icons/wi/) |
 
 ## Usage

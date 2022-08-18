@@ -61,6 +61,7 @@ jobs:
       - run: npm run ti
       - run: npm run tn
       - run: npm run uiw
+      - run: npm run vl
       - run: npm run vsc
       - run: npm run vv
       - run: npm run wi
