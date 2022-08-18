@@ -50,7 +50,43 @@ Collection of popular open source svg icons
 | `@icongo/vv` | [![npm version](https://img.shields.io/npm/v/@icongo/vv.svg)](https://www.npmjs.com/package/@icongo/vv) | [`#preview`](https://icongo.github.io/#/icons/vv/) |
 | `@icongo/wi` | [![npm version](https://img.shields.io/npm/v/@icongo/wi.svg)](https://www.npmjs.com/package/@icongo/wi) | [`#preview`](https://icongo.github.io/#/icons/wi/) |
 
+## Usage
 
+```jsx
+import { DIAndroid } from "@icongo/di";
+import { STIApple } from '@icongo/sti/lib/STIApple';
+
+function Demo() {
+  return (
+    <div>
+      <STIApple />
+      <DIAndroid />
+    </div>
+  )
+}
+```
+
+## Docker
+
+The Icons search website can be deployed to your personal server via docker.
+
+```shell
+docker pull wcjiang/icongo
+# Or
+docker pull ghcr.io/jaywcjlove/icongo:latest
+```
+
+```shell
+docker run --name icongo --rm -d -p 9112:80 wcjiang/icongo:latest
+# Or
+docker run --name icongo -itd -p 9112:80 wcjiang/icongo:latest
+# Or
+docker run --name icongo -itd -p 9112:80 ghcr.io/jaywcjlove/icongo:latest
+```
+
+Visit the following URL in your browser:
+
+http://localhost:9112/
 
 ## License
 
