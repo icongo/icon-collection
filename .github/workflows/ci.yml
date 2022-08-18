@@ -45,6 +45,7 @@ jobs:
       - run: npm run ik
       - run: npm run io
       - run: npm run ir
+      - run: npm run ji
       - run: npm run lg
       - run: npm run lu
       - run: npm run md
