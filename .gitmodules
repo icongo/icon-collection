@@ -162,3 +162,7 @@
 	path = icons/ad/data
 	url = https://github.com/ant-design/ant-design-icons.git
 	branch = master
+[submodule "icons/ji/data"]
+	path = icons/ji/data
+	url = https://github.com/michaelampr/jam.git
+	branch = master

@@ -25,6 +25,7 @@
     "ik": "svgo -f icons/ik/data/icons -o svg/ik --config icons/ik/svgo.config.js",
     "io": "svgo -f icons/io/data/src/svg -o svg/io",
     "ir": "svgo -f icons/ir/data/icons -o svg/ir --config icons/ir/svgo.config.js",
+    "ji": "svgo -f icons/ji/data/icons -o svg/ji",
     "lg": "svgo -f icons/lg/data/logos -o svg/lg",
     "lu": "svgo -f icons/lu/data/icons -o svg/lu",
     "md": "node icons/md/cpy.mjs && svgo -f icons/md/.cache_svg -o svg/md",
