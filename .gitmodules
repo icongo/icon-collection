@@ -182,3 +182,7 @@
 	path = icons/bl/data
 	url = https://github.com/icongo/bank-logos.git
 	branch = main
+[submodule "icons/gy/data"]
+	path = icons/gy/data
+	url = https://github.com/frexy/glyph-iconset.git
+	branch = master

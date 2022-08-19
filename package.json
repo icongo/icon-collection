@@ -22,6 +22,7 @@
     "gi": "cpy 'icons/gi/data/**/*.svg' node_modules/.cache/svg/gi --flat && svgo -f node_modules/.cache/svg/gi -o svg/gi",
     "go": "svgo -f icons/go/data/icons -o svg/go",
     "gr": "svgo -f icons/gr/data/public/img -o svg/gr",
+    "gy": "svgo -f icons/gy/data/svg -o svg/gy",
     "hi": "node icons/hi/cpy.mjs && svgo -f icons/hi/.cache_svg -o svg/hi",
     "ic": "node icons/ic/cpy.mjs && svgo -f icons/ic/.cache_svg -o svg/ic",
     "ii": "svgo -f icons/ii/data/svg -o svg/ii",

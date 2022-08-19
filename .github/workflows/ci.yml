@@ -42,6 +42,7 @@ jobs:
       - run: npm run gi
       - run: npm run go
       - run: npm run gr
+      - run: npm run gy
       - run: npm run hi
       - run: npm run ic
       - run: npm run ii
