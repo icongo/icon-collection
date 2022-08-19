@@ -190,3 +190,7 @@
 	path = icons/mc/data
 	url = https://github.com/xtoolkit/Micon.git
 	branch = master
+[submodule "icons/br/data"]
+	path = icons/br/data
+	url = https://github.com/alrra/browser-logos.git
+	branch = main
