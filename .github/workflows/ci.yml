@@ -70,6 +70,8 @@ jobs:
       - run: npm run vsc
       - run: npm run vv
       - run: npm run wi
+      
+      - run: npm run test
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

@@ -5,7 +5,7 @@
     "ae": "svgo -f icons/ae/data/SVG -o svg/ae",
     "bi": "cpy 'icons/bi/data/svg/**/*.svg' node_modules/.cache/svg/bi --flat && svgo -f node_modules/.cache/svg/bi -o svg/bi",
     "bl": "svgo -f icons/bl/data/logos -o svg/bl",
-    "br": "cpy 'icons/br/data/src/**/*.svg' node_modules/.cache/svg/br --flat && svgo -f node_modules/.cache/svg/br -o svg/br",
+    "br": "cpy 'icons/br/data/src/archive/**/*.svg' node_modules/.cache/svg/br --flat && svgo -f node_modules/.cache/svg/br -o svg/br",
     "bs": "svgo -f icons/bs/data/icons -o svg/bs",
     "bts": "svgo -f icons/bts/data/dist/icons -o svg/bts",
     "ccp": "node icons/ccp/cpy.mjs && svgo -f icons/ccp/.cache_svg -o svg/ccp",
@@ -50,7 +50,7 @@
     "vsc": "svgo -f icons/vsc/data/src/icons -o svg/vsc",
     "vv": "svgo -f icons/vv/data/icons -o svg/vv",
     "wi": "svgo -f icons/wi/data/svg -o svg/wi",
-    "test": ""
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -63,6 +63,7 @@
   "devDependencies": {
     "cpy-cli": "^4.1.0",
     "del-cli": "^5.0.0",
-    "icongo": "^1.0.3"
+    "icongo": "^1.0.3",
+    "jest": "^28.1.3"
   }
 }
