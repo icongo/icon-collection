@@ -25,6 +25,7 @@ jobs:
       - run: npm run ae
       - run: npm run bi
       - run: npm run bl
+      - run: npm run br
       - run: npm run bs
       - run: npm run bts
       - run: npm run ccp
