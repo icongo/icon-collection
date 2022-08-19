@@ -24,7 +24,7 @@
     "gr": "svgo -f icons/gr/data/public/img -o svg/gr",
     "gy": "svgo -f icons/gy/data/svg -o svg/gy",
     "hi": "node icons/hi/cpy.mjs && svgo -f icons/hi/.cache_svg -o svg/hi",
-    "ic": "node icons/ic/cpy.mjs && svgo -f icons/ic/.cache_svg -o svg/ic",
+    "ic": "del svg/ic && node icons/ic/cpy.mjs && svgo -f icons/ic/.cache_svg -o svg/ic",
     "ii": "svgo -f icons/ii/data/svg -o svg/ii",
     "ik": "svgo -f icons/ik/data/icons -o svg/ik --config icons/ik/svgo.config.js",
     "io": "svgo -f icons/io/data/src/svg -o svg/io",
@@ -60,6 +60,7 @@
   "homepage": "http://icongo.github.io",
   "devDependencies": {
     "cpy-cli": "^4.1.0",
+    "del-cli": "^5.0.0",
     "icongo": "^1.0.3"
   }
 }
