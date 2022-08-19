@@ -32,6 +32,7 @@
     "ji": "svgo -f icons/ji/data/icons -o svg/ji",
     "lg": "svgo -f icons/lg/data/logos -o svg/lg",
     "lu": "svgo -f icons/lu/data/icons -o svg/lu",
+    "mc": "node icons/mc/cpy.mjs && svgo -f icons/mc/.cache_svg -o svg/mc",
     "md": "node icons/md/cpy.mjs && svgo -f icons/md/.cache_svg -o svg/md",
     "mi": "svgo -f icons/mi/data/icons -o svg/mi",
     "mp": "node icons/mp/cpy.mjs && svgo -f icons/mp/.cache_svg -o svg/mp",

@@ -52,6 +52,7 @@ jobs:
       - run: npm run ji
       - run: npm run lg
       - run: npm run lu
+      - run: npm run mc
       - run: npm run md
       - run: npm run mi
       - run: npm run mp

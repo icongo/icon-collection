@@ -186,3 +186,7 @@
 	path = icons/gy/data
 	url = https://github.com/frexy/glyph-iconset.git
 	branch = master
+[submodule "icons/mc/data"]
+	path = icons/mc/data
+	url = https://github.com/xtoolkit/Micon.git
+	branch = master
