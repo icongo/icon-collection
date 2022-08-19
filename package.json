@@ -4,6 +4,7 @@
     "ad": "node icons/ad/cpy.mjs && svgo -f icons/ad/.cache_svg -o svg/ad",
     "ae": "svgo -f icons/ae/data/SVG -o svg/ae",
     "bi": "cpy 'icons/bi/data/svg/**/*.svg' node_modules/.cache/svg/bi --flat && svgo -f node_modules/.cache/svg/bi -o svg/bi",
+    "bl": "svgo -f icons/bl/data/logos -o svg/bl",
     "bs": "svgo -f icons/bs/data/icons -o svg/bs",
     "bts": "svgo -f icons/bts/data/dist/icons -o svg/bts",
     "ccp": "node icons/ccp/cpy.mjs && svgo -f icons/ccp/.cache_svg -o svg/ccp",

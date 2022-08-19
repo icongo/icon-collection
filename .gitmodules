@@ -178,3 +178,7 @@
 	path = icons/ct/data
 	url = https://github.com/spothq/cryptocurrency-icons.git
 	branch = master
+[submodule "icons/bl/data"]
+	path = icons/bl/data
+	url = https://github.com/icongo/bank-logos.git
+	branch = main
