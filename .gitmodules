@@ -214,3 +214,7 @@
 	path = icons/sn/data
 	url = https://github.com/paomedia/small-n-flat.git
 	branch = master
+[submodule "icons/li/data"]
+	path = icons/li/data
+	url = https://github.com/DiemenDesign/LibreICONS.git
+	branch = master
