@@ -38,6 +38,7 @@
     "mi": "svgo -f icons/mi/data/icons -o svg/mi",
     "mp": "node icons/mp/cpy.mjs && svgo -f icons/mp/.cache_svg -o svg/mp",
     "pk": "cpy 'icons/pk/data/source/**/*.svg' node_modules/.cache/svg/pk --flat && svgo -f node_modules/.cache/svg/pk -o svg/pk",
+    "ps": "svgo -f icons/ps/data/pe-icon-7-stroke/svg -o svg/ps",
     "pbi": "svgo -f icons/pbi/data/SVG -o svg/pbi",
     "ri": "cpy 'icons/ri/data/icons/**/*.svg' node_modules/.cache/svg/ri --flat && svgo -f node_modules/.cache/svg/ri -o svg/ri",
     "scwi": "cpy 'icons/scwi/data/dist/spectrum-css-ccx-workflow-icons/dist/22/*.svg' node_modules/.cache/svg/scwi --flat && svgo -f node_modules/.cache/svg/scwi -o svg/scwi",

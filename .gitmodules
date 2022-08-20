@@ -202,3 +202,7 @@
 	path = icons/wl/data
 	url = https://github.com/icons8/welovesvg.git
 	branch = master
+[submodule "icons/ps/data"]
+	path = icons/ps/data
+	url = https://github.com/olimsaidov/pixeden-stroke-7-icon.git
+	branch = master
