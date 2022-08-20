@@ -21,6 +21,7 @@
     "fg": "node icons/fg/cpy.mjs && svgo -f icons/fg/.cache_svg -o svg/fg",
     "fi": "svgo -f icons/fi/data/icons -o svg/fi",
     "fl": "svgo -f icons/fl/data/svg -o svg/fl",
+    "fp": "node icons/fp/cpy.mjs && svgo -f icons/fp/.cache_svg -o svg/fp",
     "gi": "cpy 'icons/gi/data/**/*.svg' node_modules/.cache/svg/gi --flat && svgo -f node_modules/.cache/svg/gi -o svg/gi",
     "go": "svgo -f icons/go/data/icons -o svg/go",
     "gr": "svgo -f icons/gr/data/public/img -o svg/gr",

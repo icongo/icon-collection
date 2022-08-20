@@ -40,6 +40,8 @@ jobs:
       - run: npm run fd
       - run: npm run fg
       - run: npm run fi
+      - run: npm run fl
+      - run: npm run fp
       - run: npm run gi
       - run: npm run go
       - run: npm run gr
@@ -62,9 +64,9 @@ jobs:
       - run: npm run mi
       - run: npm run mn
       - run: npm run mp
+      - run: npm run pbi
       - run: npm run pk
       - run: npm run ps
-      - run: npm run pbi
       - run: npm run ri
       - run: npm run scwi
       - run: npm run si

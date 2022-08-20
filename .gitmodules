@@ -234,3 +234,7 @@
 	path = icons/iu/data
 	url = https://github.com/raivo-otp/issuer-icons.git
 	branch = master
+[submodule "icons/fp/data"]
+	path = icons/fp/data
+	url = https://github.com/Yummygum/flagpack-core.git
+	branch = main
