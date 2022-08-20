@@ -194,3 +194,7 @@
 	path = icons/br/data
 	url = https://github.com/alrra/browser-logos.git
 	branch = main
+[submodule "icons/pbi/data"]
+	path = icons/pbi/data
+	url = https://github.com/microsoft/PowerBI-Icons.git
+	branch = main
