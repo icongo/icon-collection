@@ -309,6 +309,10 @@ it('ik: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ik/data/icons'))).toBeTruthy();
 });
 
+it('im: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/im/data/SVG'))).toBeTruthy();
+});
+
 it('io: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/io/data/src/svg'))).toBeTruthy();
 });
