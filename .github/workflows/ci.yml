@@ -58,6 +58,7 @@ jobs:
       - run: npm run mi
       - run: npm run mp
       - run: npm run pk
+      - run: npm run ps
       - run: npm run pbi
       - run: npm run ri
       - run: npm run scwi
