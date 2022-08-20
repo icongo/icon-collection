@@ -222,3 +222,7 @@
 	path = icons/is/data
 	url = https://github.com/materialos/icons.git
 	branch = master
+[submodule "icons/mn/data"]
+	path = icons/mn/data
+	url = https://github.com/mono-company/mono-icons.git
+	branch = master
