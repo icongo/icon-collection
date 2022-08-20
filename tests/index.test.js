@@ -349,6 +349,10 @@ it('mp: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/mp/data/src/icons'))).toBeTruthy();
 });
 
+it('pbi: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/pbi/data/SVG'))).toBeTruthy();
+});
+
 it('pk: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/pk/data/source'))).toBeTruthy();
   expect(fs.readdirSync(path.resolve(process.cwd(), 'icons/pk/data/source'))).toEqual(expect.arrayContaining([
@@ -471,4 +475,11 @@ it('vv: does the directory exist?', async () => {
 
 it('wi: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/wi/data/svg'))).toBeTruthy();
+});
+
+it('wl: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/wl/data/libs'))).toBeTruthy();
+  expect(fs.readdirSync(path.resolve(process.cwd(), 'icons/wl/data/libs'))).toEqual(expect.arrayContaining([
+    "brandico", "elusive-icons", "entypo", "font-awesome", "fontelico", "foundation-icons", "glyphicons-halflings",
+  ]));
 });

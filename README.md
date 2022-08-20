@@ -56,6 +56,7 @@ Collection of popular open source svg icons
 | `@icongo/vv` | [![npm version](https://img.shields.io/npm/v/@icongo/vv.svg)](https://www.npmjs.com/package/@icongo/vv) | [`#preview`](https://icongo.github.io/#/icons/vv/) |
 | `@icongo/vl` | [![npm version](https://img.shields.io/npm/v/@icongo/vl.svg)](https://www.npmjs.com/package/@icongo/vl) | [`#preview`](https://icongo.github.io/#/icons/vl/) |
 | `@icongo/wi` | [![npm version](https://img.shields.io/npm/v/@icongo/wi.svg)](https://www.npmjs.com/package/@icongo/wi) | [`#preview`](https://icongo.github.io/#/icons/wi/) |
+| `@icongo/wl` | [![npm version](https://img.shields.io/npm/v/@icongo/wl.svg)](https://www.npmjs.com/package/@icongo/wl) | [`#preview`](https://icongo.github.io/#/icons/wl/) |
 
 ## Usage
 

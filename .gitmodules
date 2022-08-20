@@ -198,3 +198,7 @@
 	path = icons/pbi/data
 	url = https://github.com/microsoft/PowerBI-Icons.git
 	branch = main
+[submodule "icons/wl/data"]
+	path = icons/wl/data
+	url = https://github.com/icons8/welovesvg.git
+	branch = master

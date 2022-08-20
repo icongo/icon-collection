@@ -51,6 +51,7 @@
     "vsc": "svgo -f icons/vsc/data/src/icons -o svg/vsc",
     "vv": "svgo -f icons/vv/data/icons -o svg/vv",
     "wi": "svgo -f icons/wi/data/svg -o svg/wi",
+    "wl": "cpy 'icons/wl/data/libs/**/*.svg' '!icons/wl/data/libs/**/*.min.svg' node_modules/.cache/svg/wl --flat && svgo -f node_modules/.cache/svg/wl -o svg/wl",
     "test": "jest"
   },
   "repository": {
