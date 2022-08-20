@@ -28,6 +28,7 @@
     "ic": "del svg/ic && node icons/ic/cpy.mjs && svgo -f icons/ic/.cache_svg -o svg/ic",
     "ii": "svgo -f icons/ii/data/svg -o svg/ii",
     "ik": "svgo -f icons/ik/data/icons -o svg/ik --config icons/ik/svgo.config.js",
+    "im": "node icons/im/cpy.mjs && svgo -f icons/im/.cache_svg -o svg/im",
     "io": "svgo -f icons/io/data/src/svg -o svg/io",
     "ir": "svgo -f icons/ir/data/icons -o svg/ir --config icons/ir/svgo.config.js",
     "ji": "svgo -f icons/ji/data/icons -o svg/ji",

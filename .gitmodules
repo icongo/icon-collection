@@ -206,3 +206,7 @@
 	path = icons/ps/data
 	url = https://github.com/olimsaidov/pixeden-stroke-7-icon.git
 	branch = master
+[submodule "icons/im/data"]
+	path = icons/im/data
+	url = https://github.com/Keyamoon/IcoMoon-Free.git
+	branch = master
