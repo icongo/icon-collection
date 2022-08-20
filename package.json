@@ -20,6 +20,7 @@
     "fd": "svgo -f icons/fd/data/svgs -o svg/fd --config icons/fd/svgo.config.js",
     "fg": "node icons/fg/cpy.mjs && svgo -f icons/fg/.cache_svg -o svg/fg",
     "fi": "svgo -f icons/fi/data/icons -o svg/fi",
+    "fl": "svgo -f icons/fl/data/svg -o svg/fl",
     "gi": "cpy 'icons/gi/data/**/*.svg' node_modules/.cache/svg/gi --flat && svgo -f node_modules/.cache/svg/gi -o svg/gi",
     "go": "svgo -f icons/go/data/icons -o svg/go",
     "gr": "svgo -f icons/gr/data/public/img -o svg/gr",

@@ -226,3 +226,7 @@
 	path = icons/mn/data
 	url = https://github.com/mono-company/mono-icons.git
 	branch = master
+[submodule "icons/fl/data"]
+	path = icons/fl/data
+	url = https://github.com/yammadev/flag-icons.git
+	branch = master
