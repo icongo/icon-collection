@@ -218,3 +218,7 @@
 	path = icons/li/data
 	url = https://github.com/DiemenDesign/LibreICONS.git
 	branch = master
+[submodule "icons/is/data"]
+	path = icons/is/data
+	url = https://github.com/materialos/icons.git
+	branch = master

@@ -36,6 +36,7 @@ Collection of popular open source svg icons
 | `@icongo/im` | [![npm version](https://img.shields.io/npm/v/@icongo/im.svg)](https://www.npmjs.com/package/@icongo/im) | [`#preview`](https://icongo.github.io/#/icons/im/) |
 | `@icongo/io` | [![npm version](https://img.shields.io/npm/v/@icongo/io.svg)](https://www.npmjs.com/package/@icongo/io) | [`#preview`](https://icongo.github.io/#/icons/io/) |
 | `@icongo/ir` | [![npm version](https://img.shields.io/npm/v/@icongo/ir.svg)](https://www.npmjs.com/package/@icongo/ir) | [`#preview`](https://icongo.github.io/#/icons/ir/) |
+| `@icongo/is` | [![npm version](https://img.shields.io/npm/v/@icongo/is.svg)](https://www.npmjs.com/package/@icongo/is) | [`#preview`](https://icongo.github.io/#/icons/is/) |
 | `@icongo/ji` | [![npm version](https://img.shields.io/npm/v/@icongo/ji.svg)](https://www.npmjs.com/package/@icongo/ji) | [`#preview`](https://icongo.github.io/#/icons/ji/) |
 | `@icongo/lg` | [![npm version](https://img.shields.io/npm/v/@icongo/lg.svg)](https://www.npmjs.com/package/@icongo/lg) | [`#preview`](https://icongo.github.io/#/icons/lg/) |
 | `@icongo/li` | [![npm version](https://img.shields.io/npm/v/@icongo/li.svg)](https://www.npmjs.com/package/@icongo/li) | [`#preview`](https://icongo.github.io/#/icons/li/) |

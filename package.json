@@ -31,6 +31,7 @@
     "im": "node icons/im/cpy.mjs && svgo -f icons/im/.cache_svg -o svg/im",
     "io": "svgo -f icons/io/data/src/svg -o svg/io",
     "ir": "svgo -f icons/ir/data/icons -o svg/ir --config icons/ir/svgo.config.js",
+    "is": "node icons/is/cpy.mjs && svgo -f icons/is/.cache_svg -o svg/is",
     "ji": "svgo -f icons/ji/data/icons -o svg/ji",
     "lg": "svgo -f icons/lg/data/logos -o svg/lg",
     "li": "node icons/li/cpy.mjs && svgo -f icons/li/.cache_svg -o svg/li",
