@@ -232,6 +232,9 @@ it('fg: does the directory exist?', async () => {
 it('fi: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/fi/data/icons'))).toBeTruthy();
 });
+it('fl: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/fl/data/svg'))).toBeTruthy();
+});
 
 it('gi: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/gi/data'))).toBeTruthy();
@@ -320,6 +323,12 @@ it('io: does the directory exist?', async () => {
 it('ir: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ir/data/icons'))).toBeTruthy();
 });
+it('is: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/is/data/Files'))).toBeTruthy();
+});
+it('iu: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/iu/data/vectors'))).toBeTruthy();
+});
 
 it('ji: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ji/data/icons'))).toBeTruthy();
@@ -352,6 +361,10 @@ it('md: does the directory exist?', async () => {
 
 it('mi: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/mi/data/icons'))).toBeTruthy();
+});
+
+it('mn: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/mn/data/svg'))).toBeTruthy();
 });
 
 it('mp: does the directory exist?', async () => {

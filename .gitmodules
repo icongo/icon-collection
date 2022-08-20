@@ -230,3 +230,7 @@
 	path = icons/fl/data
 	url = https://github.com/yammadev/flag-icons.git
 	branch = master
+[submodule "icons/iu/data"]
+	path = icons/iu/data
+	url = https://github.com/raivo-otp/issuer-icons.git
+	branch = master
