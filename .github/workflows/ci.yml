@@ -70,6 +70,7 @@ jobs:
       - run: npm run vsc
       - run: npm run vv
       - run: npm run wi
+      - run: npm run wl
       
       - run: npm run test
 
