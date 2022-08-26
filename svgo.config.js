@@ -8,14 +8,20 @@ module.exports = {
   },
   plugins: [
     'removeXMLProcInst',
+    'removeDoctype',
     'cleanupIDs',
     'cleanupAttrs',
     'removeEmptyAttrs',
     'removeMetadata',
     'removeTitle',
+    'removeDesc',
     'inlineStyles',
     'removeUselessDefs',
     'removeDimensions',
+    'removeHiddenElems',
+    'removeUnusedNS',
+    'removeEmptyText',
+    'removeEmptyContainers',
     {
       name: 'addAttributesToSVGElement',
       params: {
