@@ -1,5 +1,13 @@
 {
   "private": true,
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icongo/icon-collection.git"
+  },
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "https://icongo.github.io",
   "scripts": {
     "ad": "node icons/ad/cpy.mjs && svgo -f icons/ad/.cache_svg -o svg/ad",
     "ae": "svgo -f icons/ae/data/SVG -o svg/ae",
@@ -63,14 +71,6 @@
     "wl": "cpy 'icons/wl/data/libs/**/*.svg' '!icons/wl/data/libs/**/*.min.svg' node_modules/.cache/svg/wl --flat && svgo -f node_modules/.cache/svg/wl -o svg/wl",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/icongo/icon-collection.git"
-  },
-  "keywords": [],
-  "author": "jaywcjlove",
-  "license": "MIT",
-  "homepage": "http://icongo.github.io",
   "devDependencies": {
     "cpy-cli": "^4.1.0",
     "del-cli": "^5.0.0",
