@@ -1,3 +1,5 @@
+const { detachNodeFromParent } = require('svgo/lib/xast.js');
+
 module.exports = {
   multipass: true,
   js2svg: {
@@ -13,7 +15,6 @@ module.exports = {
     'removeTitle',
     'inlineStyles',
     'removeUselessDefs',
-    'removeComments',
     'removeDimensions',
     {
       name: 'addAttributesToSVGElement',
@@ -21,5 +22,19 @@ module.exports = {
         attributes: ['height="1em"', 'width="1em"']
       }
     },
+    {
+      name: 'removeCommentsAll',
+      type: 'visitor',
+      active: true,
+      fn() {
+        return {
+          comment: {
+            enter: (node, parentNode) => {
+              detachNodeFromParent(node, parentNode);
+            },
+          },
+        }
+      }
+    }
   ]
 }
