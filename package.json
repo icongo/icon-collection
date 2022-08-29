@@ -60,6 +60,7 @@
     "mp": "node icons/mp/cpy.mjs && svgo -f icons/mp/.cache_svg -o svg/mp",
     "mr": "svgo -f icons/mr/data/svg -o svg/mr",
     "pk": "cpy 'icons/pk/data/source/**/*.svg' node_modules/.cache/svg/pk --flat && svgo -f node_modules/.cache/svg/pk -o svg/pk",
+    "pp": "node icons/pp/cpy.mjs && svgo -f icons/pp/.cache_svg -o svg/pp",
     "ps": "svgo -f icons/ps/data/pe-icon-7-stroke/svg -o svg/ps",
     "pbi": "svgo -f icons/pbi/data/SVG -o svg/pbi",
     "ri": "cpy 'icons/ri/data/icons/**/*.svg' node_modules/.cache/svg/ri --flat && svgo -f node_modules/.cache/svg/ri -o svg/ri",

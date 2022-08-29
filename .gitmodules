@@ -274,3 +274,7 @@
 	path = icons/mr/data
 	url = https://github.com/stephenhutchings/microns.git
 	branch = master
+[submodule "icons/pp/data"]
+	path = icons/pp/data
+	url = https://github.com/CyCraft/pepicons.git
+	branch = dev
