@@ -1,7 +1,5 @@
 const { detachNodeFromParent } = require('svgo/lib/xast.js');
-
 module.exports = {
-  multipass: true,
   js2svg: {
     indent: 2, // string with spaces or number of spaces. 4 by default
     pretty: true, // boolean, false by default
@@ -11,19 +9,39 @@ module.exports = {
     'removeXMLProcInst',
     'removeMetadata',
     'removeEditorsNSData',
-    // 'removeXMLNS',
+    {
+      name: 'removeElementPgf',
+      type: 'visitor',
+      active: true,
+      fn() {
+        return {
+          element: {
+            enter: (node, parentNode) => {
+              if (node.attributes) {
+                Object.keys(node.attributes).forEach((keyname) => {
+                  if (/(xmlns:(!?\w+))|(xml:space)|(i:\w+)/.test(keyname)) {
+                    delete node.attributes[keyname];
+                  }
+                });
+              }
+              if (/^i:(pgfRef|pgf)/.test(node.name)) {
+                detachNodeFromParent(node, parentNode);
+              }
+            },
+          },
+        }
+      }
+    },
     'cleanupAttrs',
     'mergeStyles',
     'inlineStyles',
     'minifyStyles',
-    'cleanupIDs',
     'removeUselessDefs',
     'cleanupNumericValues',
     'convertColors',
     'removeUnknownsAndDefaults',
     'removeNonInheritableGroupAttrs',
     'removeUselessStrokeAndFill',
-    // 'removeViewBox',
     'cleanupEnableBackground',
     'removeHiddenElems',
     'removeEmptyText',
@@ -41,19 +59,23 @@ module.exports = {
     'sortDefsChildren',
     'removeTitle',
     'removeDesc',
-    'removeDimensions',
+    'removeStyleElement',
     {
-      name: 'removeAttrs',
+      name: 'removeUnknownsAndDefaults',
       params: {
-        attrs: ['svg:(?!(width|height|xmlns))'],
-      },
-    },
-    {
-      name: 'addAttributesToSVGElement',
-      params: {
-        attributes: ['height="1em"', 'width="1em"']
+        keepDataAttrs: false
       }
     },
+    'convertPathData',
+    // {
+    //   name: 'removeAttrs',
+    //   params: {
+    //     // attrs: ['xml.*', 'xmlns:i', 'i.*'],
+    //     // attrs: ['xml.*', 'i.*', 'class'],
+    //   },
+    // },
+    'cleanupIDs',
+    'collapseGroups',
     {
       name: 'removeCommentsAll',
       type: 'visitor',
@@ -68,5 +90,5 @@ module.exports = {
         }
       }
     }
-  ]
+  ],
 }
