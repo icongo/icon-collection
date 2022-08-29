@@ -254,3 +254,7 @@
 	path = icons/co/data
 	url = https://github.com/krystonschwarze/coolicons.git
 	branch = master
+[submodule "icons/fs/data"]
+	path = icons/fs/data
+	url = https://github.com/microsoft/fluentui-system-icons.git
+	branch = main
