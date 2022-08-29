@@ -20,6 +20,7 @@
     "cg": "svgo -f icons/cg/data/icons/svg -o svg/cg",
     "ci": "node icons/ci/cpy.mjs && svgo -f icons/ci/.cache_svg -o svg/ci",
     "ct": "node icons/ct/cpy.mjs && svgo -f icons/ct/.cache_svg -o svg/ct",
+    "cy": "svgo -f icons/cy/data/resources/svg -o svg/cy",
     "di": "svgo -f icons/di/data/!SVG -o svg/di",
     "ei": "svgo -f icons/ei/data/assets/icons -o svg/ei",
     "es": "svgo -f icons/es/data/resources/svg -o svg/es",
