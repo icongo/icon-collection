@@ -246,3 +246,7 @@
 	path = icons/cy/data
 	url = https://github.com/vmware/clarity-assets.git
 	branch = master
+[submodule "icons/el/data"]
+	path = icons/el/data
+	url = https://github.com/dovy/elusive-icons
+	branch = master
