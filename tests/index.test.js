@@ -508,3 +508,42 @@ it('wl: does the directory exist?', async () => {
     "brandico", "elusive-icons", "entypo", "font-awesome", "fontelico", "foundation-icons", "glyphicons-halflings",
   ]));
 });
+
+it('vl: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/vl/data/www/logos'))).toBeTruthy();
+  expect(fs.readdirSync(path.resolve(process.cwd(), 'icons/vl/data/www/logos'))).toEqual(expect.arrayContaining([
+    "100tb", "10xbanking", "11fs", "1800flowers", "1984is", "1and1", "1degree", "1password", "23gnl"
+  ]));
+});
+
+it('vsi: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/vsi/data/icons/dark'))).toBeTruthy();
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/vsi/data/icons/light'))).toBeTruthy();
+});
+
+it('pp: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/pp/data/packages/pepicons/svg/pop'))).toBeTruthy();
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/pp/data/packages/pepicons/svg/print'))).toBeTruthy();
+});
+
+it('mr: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/mr/data/svg'))).toBeTruthy();
+});
+
+it('la: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/la/data/svg'))).toBeTruthy();
+});
+
+it('ix: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ix/data/docs/Iconsax/Svg/All/bold'))).toBeTruthy();
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ix/data/docs/Iconsax/Svg/All/broken'))).toBeTruthy();
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ix/data/docs/Iconsax/Svg/All/bulk'))).toBeTruthy();
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ix/data/docs/Iconsax/Svg/All/Crypto'))).toBeTruthy();
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ix/data/docs/Iconsax/Svg/All/linear'))).toBeTruthy();
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ix/data/docs/Iconsax/Svg/All/outline'))).toBeTruthy();
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ix/data/docs/Iconsax/Svg/All/twotone'))).toBeTruthy();
+});
+
+it('fs: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/fs/data/assets'))).toBeTruthy();
+});
