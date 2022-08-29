@@ -238,3 +238,7 @@
 	path = icons/fp/data
 	url = https://github.com/Yummygum/flagpack-core.git
 	branch = main
+[submodule "icons/es/data"]
+	path = icons/es/data
+	url = https://github.com/codeat3/blade-eos-icons
+	branch = main
