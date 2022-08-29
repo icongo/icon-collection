@@ -13,6 +13,6 @@ const __dirname = dirname(__filename);
     filter: file => {
       return /_20_\w+.svg$/ig.test(file.path);
     },
-    rename: basename => basename.replace(/^ic_fluent_/, '')
+    rename: basename => basename.replace(/^ic_fluent_/, '').replace(/_20_/, '_')
   });
 })();
