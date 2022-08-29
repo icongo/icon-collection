@@ -266,3 +266,7 @@
 	path = icons/vsi/data
 	url = https://github.com/microsoft/vscode-icons.git
 	branch = main
+[submodule "icons/la/data"]
+	path = icons/la/data
+	url = https://github.com/icons8/line-awesome.git
+	branch = master
