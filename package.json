@@ -16,6 +16,7 @@
     "br": "cpy 'icons/br/data/src/archive/**/*.svg' node_modules/.cache/svg/br --flat && svgo -f node_modules/.cache/svg/br -o svg/br",
     "bs": "svgo -f icons/bs/data/icons -o svg/bs",
     "bts": "svgo -f icons/bts/data/dist/icons -o svg/bts",
+    "cb": "svgo -f icons/cb/data/src/svg -o svg/cb",
     "ccp": "node icons/ccp/cpy.mjs && svgo -f icons/ccp/.cache_svg -o svg/ccp",
     "cg": "svgo -f icons/cg/data/icons/svg -o svg/cg",
     "ci": "node icons/ci/cpy.mjs && svgo -f icons/ci/.cache_svg -o svg/ci",

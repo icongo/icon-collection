@@ -246,3 +246,7 @@
 	path = icons/cy/data
 	url = https://github.com/codeat3/blade-clarity-icons.git
 	branch = main
+[submodule "icons/cb/data"]
+	path = icons/cb/data
+	url = https://github.com/carbon-design-system/carbon-icons
+	branch = master
