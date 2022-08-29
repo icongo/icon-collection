@@ -71,6 +71,7 @@
     "uiw": "svgo -f icons/uiw/data/icon -o svg/uiw",
     "vl": "cpy 'icons/vl/data/www/logos/**/*.svg' node_modules/.cache/svg/vl --flat && svgo -f node_modules/.cache/svg/vl -o svg/vl",
     "vsc": "svgo -f icons/vsc/data/src/icons -o svg/vsc",
+    "vsi": "node icons/vsi/cpy.mjs && svgo -f icons/vsi/.cache_svg -o svg/vsi",
     "vv": "svgo -f icons/vv/data/icons -o svg/vv",
     "wi": "svgo -f icons/wi/data/svg -o svg/wi",
     "wl": "cpy 'icons/wl/data/libs/**/*.svg' '!icons/wl/data/libs/**/*.min.svg' node_modules/.cache/svg/wl --flat && svgo -f node_modules/.cache/svg/wl -o svg/wl",

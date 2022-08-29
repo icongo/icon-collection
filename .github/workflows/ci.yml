@@ -45,6 +45,7 @@ jobs:
       - run: npm run fi
       - run: npm run fl
       - run: npm run fp
+      - run: npm run fs
       - run: npm run gi
       - run: npm run go
       - run: npm run gr
@@ -82,6 +83,7 @@ jobs:
       - run: npm run uiw
       - run: npm run vl
       - run: npm run vsc
+      - run: npm run vsi
       - run: npm run vv
       - run: npm run wi
       - run: npm run wl

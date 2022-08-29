@@ -262,3 +262,7 @@
 	path = icons/ix/data
 	url = https://github.com/lusaxweb/iconsax.git
 	branch = master
+[submodule "icons/vsi/data"]
+	path = icons/vsi/data
+	url = https://github.com/microsoft/vscode-icons.git
+	branch = main
