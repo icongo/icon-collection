@@ -58,6 +58,7 @@
     "mi": "svgo -f icons/mi/data/icons -o svg/mi",
     "mn": "svgo -f icons/mn/data/svg -o svg/mn",
     "mp": "node icons/mp/cpy.mjs && svgo -f icons/mp/.cache_svg -o svg/mp",
+    "mr": "svgo -f icons/mr/data/svg -o svg/mr",
     "pk": "cpy 'icons/pk/data/source/**/*.svg' node_modules/.cache/svg/pk --flat && svgo -f node_modules/.cache/svg/pk -o svg/pk",
     "ps": "svgo -f icons/ps/data/pe-icon-7-stroke/svg -o svg/ps",
     "pbi": "svgo -f icons/pbi/data/SVG -o svg/pbi",

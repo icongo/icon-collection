@@ -270,3 +270,7 @@
 	path = icons/la/data
 	url = https://github.com/icons8/line-awesome.git
 	branch = master
+[submodule "icons/mr/data"]
+	path = icons/mr/data
+	url = https://github.com/stephenhutchings/microns.git
+	branch = master
