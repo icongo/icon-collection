@@ -250,3 +250,7 @@
 	path = icons/el/data
 	url = https://github.com/dovy/elusive-icons
 	branch = master
+[submodule "icons/co/data"]
+	path = icons/co/data
+	url = https://github.com/krystonschwarze/coolicons.git
+	branch = master

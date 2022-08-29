@@ -28,12 +28,16 @@ jobs:
       - run: npm run br
       - run: npm run bs
       - run: npm run bts
+      - run: npm run cb
       - run: npm run ccp
       - run: npm run cg
       - run: npm run ci
+      - run: npm run co
       - run: npm run ct
+      - run: npm run cy
       - run: npm run di
       - run: npm run ei
+      - run: npm run el
       - run: npm run ev
       - run: npm run fa
       - run: npm run fc
