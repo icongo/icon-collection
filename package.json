@@ -25,7 +25,6 @@
     "cy": "cpy 'icons/cy/data/icons/**/*.svg' node_modules/.cache/svg/cy --flat && svgo -f node_modules/.cache/svg/cy -o svg/cy",
     "di": "svgo -f icons/di/data/!SVG -o svg/di",
     "ei": "svgo -f icons/ei/data/assets/icons -o svg/ei",
-    "el": "svgo -f icons/el/data/dev/icons-svg -o svg/el",
     "ev": "node icons/ev/cpy.mjs && svgo -f icons/ev/.cache_svg -o svg/ev --config icons/ev/svgo.config.js",
     "fa": "cpy 'icons/fa/data/svgs/**/*.svg' node_modules/.cache/svg/fa --flat && svgo -f node_modules/.cache/svg/fa -o svg/fa",
     "fc": "svgo -f icons/fc/data/svg -o svg/fc",

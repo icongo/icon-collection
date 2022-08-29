@@ -37,7 +37,6 @@ jobs:
       - run: npm run cy
       - run: npm run di
       - run: npm run ei
-      - run: npm run el
       - run: npm run ev
       - run: npm run fa
       - run: npm run fc
