@@ -47,6 +47,7 @@
     "ir": "svgo -f icons/ir/data/icons -o svg/ir",
     "is": "node icons/is/cpy.mjs && svgo -f icons/is/.cache_svg -o svg/is",
     "iu": "node icons/iu/cpy.mjs && svgo -f icons/iu/.cache_svg -o svg/iu",
+    "ix": "node icons/ix/cpy.mjs && svgo -f icons/ix/.cache_svg -o svg/ix",
     "ji": "svgo -f icons/ji/data/icons -o svg/ji",
     "lg": "svgo -f icons/lg/data/logos -o svg/lg",
     "li": "node icons/li/cpy.mjs && svgo -f icons/li/.cache_svg -o svg/li",
