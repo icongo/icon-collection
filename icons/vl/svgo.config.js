@@ -19,7 +19,7 @@ module.exports = {
             enter: (node, parentNode) => {
               if (node.attributes) {
                 Object.keys(node.attributes).forEach((keyname) => {
-                  if (/(xmlns:(!?\w+))|(xml:space)|(i:\w+)/.test(keyname)) {
+                  if (/(xmlns:(!?\w+))|(xml:space)|(i:\w+)/.test(keyname) && !/(xmlns:xlink)/.test(keyname)) {
                     delete node.attributes[keyname];
                   }
                 });
@@ -67,13 +67,6 @@ module.exports = {
       }
     },
     'convertPathData',
-    // {
-    //   name: 'removeAttrs',
-    //   params: {
-    //     // attrs: ['xml.*', 'xmlns:i', 'i.*'],
-    //     // attrs: ['xml.*', 'i.*', 'class'],
-    //   },
-    // },
     'cleanupIDs',
     'collapseGroups',
     {
