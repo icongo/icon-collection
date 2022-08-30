@@ -1,5 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
   <defs>
+    <mask maskUnits="userSpaceOnUse" x=".2" y=".1" width="14.8" height="0" id="b">
+      <g filter="url(#a)">
+        <path d="M.2.4H15V.1H.2z" fill="#fff"/>
+      </g>
+    </mask>
     <filter filterUnits="userSpaceOnUse" x=".2" y=".1" width="0" height="0">
       <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
     </filter>
@@ -15,11 +20,6 @@
     <filter filterUnits="userSpaceOnUse" x=".3" y=".2" width="10" height="10.4">
       <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
     </filter>
-    <mask maskUnits="userSpaceOnUse" x=".2" y=".1" width="14.8" height="0" id="b">
-      <g filter="url(#a)">
-        <path d="M.2.4H15V.1H.2z" fill="#fff"/>
-      </g>
-    </mask>
   </defs>
   <path d="M51.02 28.48v13.443L62.608 30.21a4.754 4.754 0 0 0 0-6.722c-.896-.96-2.113-1.408-3.33-1.408s-2.433.448-3.33 1.408z" fill="#8ab53f"/>
   <path d="m42.7 33.474 8.322 8.386V28.416l-4.93-4.993a4.96 4.96 0 0 0-3.393-1.344zm8.32-4.994v13.443z" fill="#bcd332"/>

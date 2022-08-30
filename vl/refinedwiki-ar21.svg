@@ -1,20 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="120" height="60">
   <defs>
-    <filter filterUnits="userSpaceOnUse" x=".2" y=".1" width="0" height="0">
-      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
-    </filter>
-    <filter id="a" filterUnits="userSpaceOnUse" x=".2" y=".1" width="14.8" height="0">
-      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
-    </filter>
-    <filter id="b" filterUnits="userSpaceOnUse" x="0" y=".2" width="10.4" height="15.1">
-      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
-    </filter>
-    <filter id="c" filterUnits="userSpaceOnUse" x=".1" y=".2" width="10" height="10.4">
-      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
-    </filter>
-    <filter id="d" filterUnits="userSpaceOnUse" x=".3" y=".2" width="10" height="10.4">
-      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
-    </filter>
     <mask maskUnits="userSpaceOnUse" x=".2" y=".1" width="14.8" height="0" id="h">
       <g filter="url(#a)">
         <path d="M15 .1H.2v.3H15z" fill="#fff"/>
@@ -35,6 +20,21 @@
         <path d="M.3 10.6h9.9V.2H.3z" fill="#fff"/>
       </g>
     </mask>
+    <filter filterUnits="userSpaceOnUse" x=".2" y=".1" width="0" height="0">
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
+    </filter>
+    <filter id="a" filterUnits="userSpaceOnUse" x=".2" y=".1" width="14.8" height="0">
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
+    </filter>
+    <filter id="b" filterUnits="userSpaceOnUse" x="0" y=".2" width="10.4" height="15.1">
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
+    </filter>
+    <filter id="c" filterUnits="userSpaceOnUse" x=".1" y=".2" width="10" height="10.4">
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
+    </filter>
+    <filter id="d" filterUnits="userSpaceOnUse" x=".3" y=".2" width="10" height="10.4">
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
+    </filter>
   </defs>
   <g fill="#5b554d">
     <path d="M14.012 39.514h2.375c1.46 0 2.923.365 2.923 2.192s-1.46 2.192-2.923 2.192h-2.375zM12.185 51.48h1.827v-5.937h2.01l3.47 5.937h2.283l-3.836-6.21c2.01-.274 3.288-1.827 3.288-3.562s-.913-3.745-4.384-3.745h-4.658z"/>

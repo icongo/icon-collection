@@ -1,13 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1.4 27.88 64 64" width="64" height="64">
   <defs>
+    <clipPath id="o">
+      <use xlink:href="#a"/>
+    </clipPath>
+    <clipPath id="m">
+      <use xlink:href="#b"/>
+    </clipPath>
+    <clipPath id="k">
+      <use xlink:href="#c"/>
+    </clipPath>
+    <clipPath id="i">
+      <use xlink:href="#d"/>
+    </clipPath>
+    <clipPath id="g">
+      <use xlink:href="#e"/>
+    </clipPath>
     <path d="M-344.5-303.6h1280v800h-1280z"/>
-    <path id="b" d="m90.8 140-10.7-18.3-58.3 39.9z"/>
-    <path id="c" d="m119.5 150.6-45-119.3v42.3z"/>
-    <path id="d" d="M74.5 31.3 10.4 143.1l28.8-9 35.3-60.5z"/>
-    <path id="e" d="m80.1 121.7-69.7 21.2 11.4 18.7 69-21.6z"/>
-    <path id="f" d="m143.5 150.4-69-119.3 45 119.3z"/>
+    <path id="a" d="m90.8 140-10.7-18.3-58.3 39.9z"/>
+    <path id="b" d="m119.5 150.6-45-119.3v42.3z"/>
+    <path id="c" d="M74.5 31.3 10.4 143.1l28.8-9 35.3-60.5z"/>
+    <path id="d" d="m80.1 121.7-69.7 21.2 11.4 18.7 69-21.6z"/>
+    <path id="e" d="m143.5 150.4-69-119.3 45 119.3z"/>
     <path d="M-344.5-303.6h1280v800h-1280z"/>
-    <linearGradient y2="163.801" x2="1.661" y1="128.926" x1="87.505" id="p" xlink:href="#a">
+    <linearGradient y2="163.801" x2="1.661" y1="128.926" x1="87.505" id="p" xlink:href="#f">
       <stop offset="0" stop-color="#1c6266"/>
       <stop offset=".116" stop-color="#227178"/>
       <stop offset=".322" stop-color="#2a8592"/>
@@ -15,7 +30,7 @@
       <stop offset=".756" stop-color="#339daf"/>
       <stop offset="1" stop-color="#34a0b3"/>
     </linearGradient>
-    <linearGradient y2="262.553" x2="206.273" y1="71.601" x1="84.558" id="n" xlink:href="#a">
+    <linearGradient y2="262.553" x2="206.273" y1="71.601" x1="84.558" id="n" xlink:href="#f">
       <stop offset="0" stop-color="#1c6266"/>
       <stop offset=".052" stop-color="#227078"/>
       <stop offset=".136" stop-color="#28828e"/>
@@ -24,7 +39,7 @@
       <stop offset=".528" stop-color="#339eb1"/>
       <stop offset="1" stop-color="#34a0b3"/>
     </linearGradient>
-    <linearGradient y2="214.635" x2="-43.657" y1="73.979" x1="51.255" id="l" xlink:href="#a">
+    <linearGradient y2="214.635" x2="-43.657" y1="73.979" x1="51.255" id="l" xlink:href="#f">
       <stop offset="0" stop-color="#1c6266"/>
       <stop offset=".116" stop-color="#227178"/>
       <stop offset=".322" stop-color="#2a8592"/>
@@ -32,7 +47,7 @@
       <stop offset=".756" stop-color="#339daf"/>
       <stop offset="1" stop-color="#34a0b3"/>
     </linearGradient>
-    <linearGradient y2="125.499" x2="95.543" y1="152.687" x1="19.879" id="j" xlink:href="#a">
+    <linearGradient y2="125.499" x2="95.543" y1="152.687" x1="19.879" id="j" xlink:href="#f">
       <stop offset="0" stop-color="#5ac2cc"/>
       <stop offset=".004" stop-color="#59c1cc"/>
       <stop offset=".118" stop-color="#48b2c0"/>
@@ -40,7 +55,7 @@
       <stop offset=".456" stop-color="#36a2b4"/>
       <stop offset="1" stop-color="#34a0b3"/>
     </linearGradient>
-    <linearGradient y2="60.758" x2="99.618" y1="150.056" x1="127.543" id="h" xlink:href="#a">
+    <linearGradient y2="60.758" x2="99.618" y1="150.056" x1="127.543" id="h" xlink:href="#f">
       <stop offset="0" stop-color="#5ac2cc"/>
       <stop offset=".004" stop-color="#59c1cc"/>
       <stop offset=".118" stop-color="#48b2c0"/>
@@ -48,22 +63,7 @@
       <stop offset=".456" stop-color="#36a2b4"/>
       <stop offset="1" stop-color="#34a0b3"/>
     </linearGradient>
-    <linearGradient id="a" gradientUnits="userSpaceOnUse"/>
-    <clipPath id="o">
-      <use xlink:href="#b"/>
-    </clipPath>
-    <clipPath id="m">
-      <use xlink:href="#c"/>
-    </clipPath>
-    <clipPath id="k">
-      <use xlink:href="#d"/>
-    </clipPath>
-    <clipPath id="i">
-      <use xlink:href="#e"/>
-    </clipPath>
-    <clipPath id="g">
-      <use xlink:href="#f"/>
-    </clipPath>
+    <linearGradient id="f" gradientUnits="userSpaceOnUse"/>
   </defs>
   <path clip-path="url(#g)" d="m137.3 11.5 40.1 128.3L80.6 170 40.5 41.8z" fill="url(#h)" transform="translate(-6.4 13.55) scale(.48084)"/>
   <path clip-path="url(#i)" d="m103.5 157-83.9 30.1-21.9-60.9 83.9-30.1z" fill="url(#j)" transform="translate(-6.4 13.55) scale(.48084)"/>
