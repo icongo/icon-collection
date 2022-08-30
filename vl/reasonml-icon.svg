@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64">
   <defs>
     <filter x="-.005" y="-.005" width="1.009" height="1.019" id="b">
       <feOffset dy="2" in="SourceAlpha"/>

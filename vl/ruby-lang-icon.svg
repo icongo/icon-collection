@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" version="1.1" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" version="1.1" viewBox="0 0 32 32">
   <defs>
     <linearGradient id="n" spreadMethod="pad" gradientTransform="scale(40.8816) rotate(23.817 32.587 15.075)" gradientUnits="userSpaceOnUse" y2="0" x2="1" y1="0" x1="0">
       <stop offset="0" style="stop-opacity:1;stop-color:#b31000"/>

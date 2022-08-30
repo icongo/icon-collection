@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="60">
   <path d="M12.865 42.896h14.6l7.268-12.528h-4.885l-4.827 8.205h-9.722l-4.854-8.32 3.224-5.976H8.814L5.57 30.305z" fill="#0979b9"/>
   <path d="M27.456 17.104h-14.8l-2.286 4.274h7.468v14.346h4.274V21.378h2.91l3.283 6.092h4.848z" fill="#2592c0"/>
   <g transform="matrix(.07771 0 0 .07771 37.784 -31.807)">

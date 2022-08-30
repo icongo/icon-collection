@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="60">
   <defs>
     <g id="c">
       <animateTransform attributeName="transform" type="rotate" from="0 327 327" to="360 327 327" dur="50s" repeatCount="indefinite"/>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="60">
   <defs>
     <path id="a" d="M0 0h442.9v136.7H0z"/>
     <path id="c" d="M283 52.7c-1.1-.8-2.5-1.2-4-1.2-3 0-5.5 1.5-7.5 4.6s-3 7.5-3 13.1V87h-3.3V49.2h3.3v8.4h.1c.9-2.9 2.2-5.1 4.1-6.7s4-2.4 6.5-2.4c1.4 0 2.7.2 3.8.7z"/>

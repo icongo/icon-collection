@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64">
   <path d="M57.31 29.066c0 14.769-11.97 26.74-26.739 26.74s-26.74-11.971-26.74-26.74 11.971-26.74 26.74-26.74c14.769-.013 26.74 11.971 26.74 26.74" fill="#008dc2"/>
   <g fill="#fff" transform="translate(3.403 -24.015) scale(.33734)">
     <use xlink:href="#a"/>

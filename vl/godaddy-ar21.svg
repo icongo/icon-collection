@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="60">
   <g transform="matrix(.952 0 0 .952 .47 3.075)">
     <use xlink:href="#a" fill="#fff"/>
     <use xlink:href="#a" class="D E"/>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="60">
   <filter height="2" width="2" y="-.5" x="-.5" id="d">
     <feGaussianBlur in="SourceAlpha" stdDeviation="3.5"/>
     <feOffset dy="-9" dx="1"/>

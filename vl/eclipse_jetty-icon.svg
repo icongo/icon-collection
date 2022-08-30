@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 32 32">
   <g transform="matrix(1.31968 0 0 1.3197 -8.77 -758.664)" fill="#fc390e" fill-rule="evenodd">
     <use xlink:href="#a" stroke="#000" stroke-width="1.977" stroke-linejoin="round"/>
     <use xlink:href="#a"/>

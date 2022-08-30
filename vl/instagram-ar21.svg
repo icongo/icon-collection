@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="60">
   <defs>
     <radialGradient xlink:href="#a" id="c" cx="673.845" cy="1118.777" fx="673.845" fy="1118.777" r="646.025" gradientTransform="matrix(1.00709 -.16909 .10283 .61127 -712.344 -507.718)"/>
     <radialGradient xlink:href="#a" id="b" gradientTransform="matrix(1.00709 -.16909 .10283 .61127 -712.344 -507.718)" cx="673.845" cy="1118.777" fx="673.845" fy="1118.777" r="646.025"/>
