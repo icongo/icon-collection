@@ -19,7 +19,7 @@ module.exports = {
             enter: (node, parentNode) => {
               if (node.attributes) {
                 Object.keys(node.attributes).forEach((keyname) => {
-                  if (/(xmlns:(!?\w+))|(xml:space)|(i:\w+)/.test(keyname) && !/(xmlns:xlink)/.test(keyname)) {
+                  if (/(xmlns:(!?\w+))|(sketchjs:(!?\w+))|(xml:space)|(i:\w+)/.test(keyname) && !/(xmlns:xlink)/.test(keyname)) {
                     delete node.attributes[keyname];
                   }
                 });
@@ -36,7 +36,6 @@ module.exports = {
     'mergeStyles',
     'inlineStyles',
     'minifyStyles',
-    'removeUselessDefs',
     'cleanupNumericValues',
     'convertColors',
     'removeUnknownsAndDefaults',
@@ -60,6 +59,7 @@ module.exports = {
     'removeTitle',
     'removeDesc',
     'removeStyleElement',
+    'removeUselessDefs',
     {
       name: 'removeUnknownsAndDefaults',
       params: {
