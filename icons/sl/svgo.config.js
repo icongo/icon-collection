@@ -11,7 +11,7 @@ module.exports = {
     'removeXMLProcInst',
     'removeMetadata',
     'removeEditorsNSData',
-    // 'removeXMLNS',
+    'removeXMLNS',
     'cleanupAttrs',
     'mergeStyles',
     'inlineStyles',
@@ -20,15 +20,14 @@ module.exports = {
     'removeUselessDefs',
     'cleanupNumericValues',
     'convertColors',
-    'removeUnknownsAndDefaults',
+    // 'removeUnknownsAndDefaults',
     'removeNonInheritableGroupAttrs',
-    // 'removeViewBox',
     'cleanupEnableBackground',
     'removeHiddenElems',
     'removeEmptyText',
     'convertShapeToPath',
     'convertEllipseToCircle',
-    'moveElemsAttrsToGroup',
+    // 'moveElemsAttrsToGroup',
     'moveGroupAttrsToElems',
     'convertPathData',
     'convertTransform',
@@ -54,11 +53,13 @@ module.exports = {
         return {
           element: {
             enter: (node, parentNode) => {
+              if (/^(svg|g|circle)/i.test(node.name)) {
+                if (node.attributes.fill && node.attributes.fill !== 'none') node.attributes.fill = 'currentColor';
+                if (node.attributes.stroke && node.attributes.stroke !== 'none') node.attributes.stroke = 'currentColor';
+              }
               if (/(svg)/i.test(node.name)) {
-                if (node.attributes.fill) node.attributes.fill = 'currentColor';
-                if (node.attributes.stroke) node.attributes.stroke = 'currentColor';
-                if (! node.attributes.height) node.attributes.height = '1em';
-                if (! node.attributes.width) node.attributes.width = '1em';
+                if (!node.attributes.height) node.attributes.height = '1em';
+                if (!node.attributes.width) node.attributes.width = '1em';
               }
             }
           }
