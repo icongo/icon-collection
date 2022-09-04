@@ -278,3 +278,7 @@
 	path = icons/pp/data
 	url = https://github.com/CyCraft/pepicons.git
 	branch = dev
+[submodule "icons/sk/data"]
+	path = icons/sk/data
+	url = https://github.com/tandpfun/skill-icons.git
+	branch = main
