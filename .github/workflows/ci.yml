@@ -79,6 +79,7 @@ jobs:
       - run: npm run scwi
       - run: npm run si
       - run: npm run sk
+      - run: npm run sl
       - run: npm run sn
       - run: npm run sti
       - run: npm run tb

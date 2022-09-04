@@ -282,3 +282,7 @@
 	path = icons/sk/data
 	url = https://github.com/tandpfun/skill-icons.git
 	branch = main
+[submodule "icons/sl/data"]
+	path = icons/sl/data
+	url = https://github.com/SamHerbert/SVG-Loaders
+	branch = master

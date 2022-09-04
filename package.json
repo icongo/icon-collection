@@ -67,6 +67,7 @@
     "scwi": "cpy 'icons/scwi/data/dist/spectrum-css-ccx-workflow-icons/dist/22/*.svg' node_modules/.cache/svg/scwi --flat && svgo -f node_modules/.cache/svg/scwi -o svg/scwi",
     "si": "svgo -f icons/si/data/icons -o svg/si",
     "sk": "svgo -f icons/sk/data/icons -o svg/sk",
+    "sl": "svgo -f icons/sl/data/svg-loaders -o svg/sl",
     "sn": "svgo -f icons/sn/data/svg -o svg/sn",
     "sti": "svgo -f icons/sti/data/images/svg -o svg/sti",
     "tb": "svgo -f icons/tb/data/icons -o svg/tb",
