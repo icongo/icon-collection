@@ -170,6 +170,10 @@ it('bts: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/bts/data/dist/icons'))).toBeTruthy();
 });
 
+it('cb: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/cb/data/src/svg'))).toBeTruthy();
+});
+
 it('cci: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/cci/data/svg'))).toBeTruthy();
 });
@@ -198,6 +202,11 @@ it('ci: does the directory exist?', async () => {
 it('ct: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ct/data/svg'))).toBeTruthy();
   expect(fs.readdirSync(path.resolve(process.cwd(), 'icons/ct/data/svg'))).toEqual(expect.arrayContaining(["icon", "black"]));
+});
+
+it('cy: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/cy/data/icons'))).toBeTruthy();
+  expect(fs.readdirSync(path.resolve(process.cwd(), 'icons/cy/data/icons'))).toEqual(expect.arrayContaining(['chart', 'commerce', 'core', 'essential', 'media', 'social', 'technology', 'text-edit', 'travel']));
 });
 
 it('di: does the directory exist?', async () => {
