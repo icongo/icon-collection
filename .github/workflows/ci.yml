@@ -29,6 +29,7 @@ jobs:
       - run: npm run bs
       - run: npm run bts
       - run: npm run cb
+      - run: npm run cci
       - run: npm run ccp
       - run: npm run cg
       - run: npm run ci

@@ -170,6 +170,10 @@ it('bts: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/bts/data/dist/icons'))).toBeTruthy();
 });
 
+it('cci: does the directory exist?', async () => {
+  expect(fs.existsSync(path.resolve(process.cwd(), 'icons/cci/data/svg'))).toBeTruthy();
+});
+
 it('ccp: does the directory exist?', async () => {
   expect(fs.existsSync(path.resolve(process.cwd(), 'icons/ccp/data'))).toBeTruthy();
   expect(fs.readdirSync(path.resolve(process.cwd(), 'icons/ccp/data'))).toEqual(expect.arrayContaining([

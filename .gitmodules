@@ -286,3 +286,7 @@
 	path = icons/sl/data
 	url = https://github.com/SamHerbert/SVG-Loaders
 	branch = master
+[submodule "icons/cci/data"]
+	path = icons/cci/data
+	url = https://github.com/Klarr-Agency/Circum-Icons.git
+	branch = main
