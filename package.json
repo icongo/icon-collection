@@ -73,6 +73,7 @@
     "sti": "svgo -f icons/sti/data/images/svg -o svg/sti",
     "tb": "svgo -f icons/tb/data/icons -o svg/tb",
     "ti": "svgo -f icons/ti/data/src/svg -o svg/ti",
+    "tii": "svgo -f icons/tii/data/SVG -o svg/tii",
     "tn": "node icons/tn/cpy.mjs && svgo -f icons/tn/.cache_svg -o svg/tn",
     "uiw": "svgo -f icons/uiw/data/icon -o svg/uiw",
     "vl": "node icons/vl/cpy.mjs && svgo -f icons/vl/.cache_svg -o svg/vl --config icons/vl/svgo.config.js",

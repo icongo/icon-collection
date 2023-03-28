@@ -290,3 +290,7 @@
 	path = icons/cci/data
 	url = https://github.com/Klarr-Agency/Circum-Icons.git
 	branch = main
+[submodule "icons/tii/data"]
+	path = icons/tii/data
+	url = https://github.com/lykmapipo/themify-icons.git
+	branch = master
